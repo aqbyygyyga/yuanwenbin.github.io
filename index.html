@@ -173,11 +173,6 @@
            
         } 
         
-        .tabs .tab0 .tab0_img2.show
-        {  
-            
-               -webkit-animation:tab0sprite1 5s linear infinite;
-        }
        
         .tabs .tab0 .tab0_img3.show
          {  
@@ -216,7 +211,7 @@
         } 
          .tabs .tab0 .tab0_img4.show
         {  
-             -webkit-animation:tab0_img4_sprite  10s linear  infinite;
+             -webkit-animation:tab0_img4_sprite  20s linear  infinite;
             
         } 
           @-webkit-keyframes tab0_img4_sprite
@@ -225,45 +220,37 @@
                     left:0%;
                   }
             
-            10%  { -webkit-transform: rotate(90deg);
-                    transform: rotate(90deg); 
-                    left:25%;
+            10%  { 
+                    left:18%;
                   }
-            20%  { -webkit-transform: rotate(180deg);
-                    transform: rotate(180deg);
-                    left:50%;
+            20%  { 
+                    left:36%;
                   }
-            30%  { -webkit-transform: rotate(270deg);
-                     transform: rotate(270deg);
-                     left:75%;
+            30%  { 
+                     left:54%;
                    }
-            40%  {-webkit-transform: rotate(360deg);
-                    transform: rotate(360deg);
+            40%  {
+                    left:72%;
+                  }
+            50%  {-webkit-transform: rotate(1440deg);
+                    transform: rotate(1440deg);
                     left:90%;
                   }
-            50%  {-webkit-transform: rotate(0deg);
-                    transform: rotate(360deg);
-                    left:90%;
-                  }
-            60% {   -webkit-transform: rotate(0deg);
-                    transform: rotate(0deg);
-                    left:75%;
+            60% {  
+                    left:72%;
                   }
             
-            70%  { -webkit-transform: rotate(90deg);
-                    transform: rotate(90deg); 
-                    left:50%;
+            70%  {
+                    left:54%;
                   }
-            80%  { -webkit-transform: rotate(180deg);
-                    transform: rotate(180deg);
-                    left:25%;
+            80%  { 
+                    left:36%;
                   }
-            90%  { -webkit-transform: rotate(270deg);
-                     transform: rotate(270deg);
-                     left:0%;
+            90%  { 
+                     left:18%;
                    }
-            100%  {-webkit-transform: rotate(360deg);
-                    transform: rotate(360deg);
+            100%  {-webkit-transform: rotate(0deg);
+                    transform: rotate(0deg);
                     left:0%;
                   }
             
@@ -273,7 +260,7 @@
         {
             position: absolute;
             left: 15%;
-            top: 3%;
+            top: 7%;
                             
         }
         .tabs .tab1 .car 
@@ -305,14 +292,14 @@
             100%  {top: 9%; left: 24%; -webkit-transform: rotateZ(-150deg)}
        }*/
        @-webkit-keyframes sprite1Topto
-        {   0% { top: 70%; left: 8%;  }
+        {   0% { top: 73%; left: 8%;  }
            
-            25%  { top: 50%; left: 45%; }
+            25%  { top: 55%; left: 45%; }
           
-            40%  { top: 32%; left: 47%;}
+            40%  { top: 37%; left: 47%;}
            
-            70%  {top: 17%; left: 42%; }
-            100%  {top: 11%; left: 21%; }
+            70%  {top: 22%; left: 42%; }
+            100%  {top: 14%; left: 21%; }
        }
        @-webkit-keyframes tab1_sprite
        { 0%   {opacity: 0; }
@@ -348,39 +335,66 @@
            
              background:url('img/tab1_img6.png') no-repeat 0 0;
              z-index:2; 
-             zoom：0.3;
+			 top: 5%;
+             
          }
        .tabs .tab1 .p1
        {  z-index:2;
            background: url('img/tab1_img1.png') no-repeat 0 0;
-	            background-size: 100% 100%;top: 0%; left: 1%;
-              width: 6rem;
-          height: 6rem;
-          }
+	            background-size: 100% 100%;top: 7%; left: 7%;
+			transform:scale(2.0);
+			-webkit-transform:scale(2.0);
+			-moz-transform:scale(2.0);
+			-o-transform:scale(2.0);
+			-ms-transform:scale(2.0);
+          
        }
         .tabs .tab1 .p2
        {  z-index:2;
            background: url('img/tab1_img2.png') no-repeat 0 0;
-	           background-size: 100% 100%;top: 13%; left: 61%;
+	           background-size: 100% 100%;top: 14%; left: 61%;
+			   			transform:scale(1.2);
+			-webkit-transform:scale(1.2);
+			-moz-transform:scale(1.2);
+			-o-transform:scale(1.2);
+			-ms-transform:scale(1.2);
+
        }
         .tabs .tab1 .p3
        {  z-index:2;
            background: url('img/tab1_img3.png') no-repeat 0 0;
-	          background-size: 100% 100%; top: 33%; left: 64%;
+	          background-size: 100% 100%; top: 37%; left: 65%;
+			  			transform:scale(1.2);
+			-webkit-transform:scale(1.2);
+			-moz-transform:scale(1.2);
+			-o-transform:scale(1.2);
+			-ms-transform:scale(1.2);
+
        }
         .tabs .tab1 .p4
        {  z-index:2;
            background: url('img/tab1_img4.png') no-repeat 0 0;
-	         background-size: 100% 100%; top: 56%;
-          left: 60%;
+	         background-size: 100% 100%; top: 61%;
+          left: 62%;
+		  			transform:scale(1.2);
+			-webkit-transform:scale(1.2);
+			-moz-transform:scale(1.2);
+			-o-transform:scale(1.2);
+			-ms-transform:scale(1.2);
+
        }
         .tabs .tab1 .p5
        {   z-index:2;
            background: url('img/tab1_img5.png');
-	          background-size: 100% 100%; top: 69%; 
+	          background-size: 100% 100%; top: 75%; 
            left:6%;
-            width: 15%;
-          height: 11%;
+			transform:scale(1.2);
+			-webkit-transform:scale(1.2);
+			-moz-transform:scale(1.2);
+			-o-transform:scale(1.2);
+			-ms-transform:scale(1.2);
+
+
        }  
        
         .tabs .tab1 .p1.show
@@ -419,23 +433,22 @@
      
  
       .fontColor{color: #EC121A;} 
-      .fontGreedColor{color: #00a850;} 
+      .fontGreedColor{color: #00a850; font-size:3.0rem;} 
       .tabs .tab1 .p5_txt{ z-index: 2;
-          position: absolute; top: 70%; left: 30%;  opacity: 0;  
+          position: absolute; top: 75%; left: 25%;  opacity: 0;  
       }
       .tabs .tab1 .p4_txt{z-index: 2;
-          position: absolute;  left: 70%; opacity: 0;  
-          top: 45%;
+          position: absolute;  left: 72%; opacity: 0;  
+          top: 49%;
       }
        .tabs .tab1 .p3_txt{z-index: 2;
-         top: 22%;position: absolute;left: 70%; opacity: 0;  
+         top: 24%;position: absolute;left: 70%; opacity: 0;  
       }
       .tabs .tab1 .p2_txt{
           top: 1%;position: absolute;left: 55%; opacity: 0;  z-index: 2;
       }
       .tabs .tab1 .p1_txt{ 
-        top: 16%;position: absolute;left: 1%; opacity: 0;  
-       width: 7rem;height: 6rem;z-index: 2;
+        top: 23%;position: absolute;left: 5%; opacity: 0;  z-index: 2;
       }
     .tabs .tab1 .p6_txt
        {  z-index:2;
@@ -484,7 +497,7 @@
           background-repeat: no-repeat;
           width: 200px;
           height: 202px;
-          top: 50%;
+          top: 45%;
           position: absolute;
           left: 50%;
            margin-left: -100px;
@@ -540,20 +553,20 @@
       .tabs .tab2 .tab2-txt1{
           
          
-          top: 10%;
+          top: 15%;
           position: absolute;
           left: 10%;
            width: 80%;
-           height: 61px;
+           height: 41px;
           opacity: 0;  
      } 
       .tabs .tab2 .tab2-txt2{
          
          
-          top: 46%;
+          top: 40%;
           position: absolute;
           left:5%; 
-          height: 67px;
+          height: 50px;
           width:90%;
           opacity: 0;  
      } 
@@ -571,8 +584,8 @@
        */
      .tabs .tab2 .tab2-txt3{
         width: 80%;
-        height: 66px;
-        top: 67%;
+        height: 50px;
+        top: 60%;
         position: absolute;
         left: 10%;
         opacity: 0;
@@ -633,15 +646,15 @@
           height: 65px;
           opacity: 0;  
         }
-       .tabs .tab3 .tab3icon1{background-image: url('img/tab3_img1.png');
+       .tabs .tab3 .tab3icon1{background-image: url('img/tab3_img1.png');background-size:contain;
           background-repeat: no-repeat; top: 31%;left: 62%;}
-       .tabs .tab3 .tab3icon2{background-image: url('img/tab3_img2.png');
+       .tabs .tab3 .tab3icon2{background-image: url('img/tab3_img2.png');background-size:contain;
           background-repeat: no-repeat; top: 52%;left: 67%;}
-       .tabs .tab3 .tab3icon3{background-image: url('img/tab3_img3.png');
+       .tabs .tab3 .tab3icon3{background-image: url('img/tab3_img3.png');background-size:contain;
           background-repeat: no-repeat;top: 64%;left: 40%;}
-       .tabs .tab3 .tab3icon4{background-image: url('img/tab3_img4.png');
+       .tabs .tab3 .tab3icon4{background-image: url('img/tab3_img4.png');background-size:contain;
           background-repeat: no-repeat;top: 50%;left: 14%;}
-       .tabs .tab3 .tab3icon5{background-image: url('img/tab3_img5.png');
+       .tabs .tab3 .tab3icon5{background-image: url('img/tab3_img5.png');background-size:contain;
           background-repeat: no-repeat;top: 30%;left: 22%;}
       .tabs .tab3 .tab3icon1.show{ 
          -webkit-animation:icon_sprite 0.8s 1s linear 1 forwards;
@@ -678,9 +691,9 @@
           background-repeat: no-repeat;
           width: 100px;
           height: 18px;
-          top: 50%;
+          top: 48%;
           position: absolute;
-          left: 35%;
+          left: 34%;
           opacity: 0;
        
        }
@@ -729,7 +742,7 @@
             -o-transform:scale(0.2);
             }
          .tabs .tab3 .earth.show{ 
-         -webkit-animation:earth_sprite 4s  linear 1 forwards;
+         -webkit-animation:earth_sprite 8s  linear 1 forwards;
         }
         /*
         .tabs .tab3 .earth1.show{ 
@@ -873,6 +886,11 @@ margin-left: -34px;}
         
          -webkit-animation: car_runsprite 20s linear infinite;
        }
+        .tabs .tab5 .car_running_bg2{position: absolute;top: 90%;}
+      .tabs .tab5 .car_running_bg2.show{ 
+        
+         -webkit-animation: car_runsprite 20s linear infinite;
+       }
          @-webkit-keyframes car_runsprite {  
             0%   {left:100%;}
             10%   {left:80%;}
@@ -892,7 +910,47 @@ margin-left: -34px;}
                   bottom: 5%;
                   position: absolute;
              }
-       
+       .tabs .tab5 .bg{
+        width: 80%;
+        left: 10%;
+        position: absolute;
+        top: 10%;
+       }
+        .tabs .tab5 .Tabfont{
+           font-family: "幼圆1","幼圆";
+           color: #ffffff;
+        }
+        .tabs .tab5 .name{top: 20%;
+position: absolute;
+left: 20%;
+}
+   .tabs .tab5 .tab5name{top: 21%;
+position: absolute;
+left: 35%;
+}      .tabs .tab5 .shenfen{top: 36%;
+position: absolute;
+left: 20%;}
+        .tabs .tab5 .mod{top: 60%;
+position: absolute;
+left: 20%;}
+.tabs .tab5 .tab5mode{top: 61%;
+position: absolute;
+left: 35%;
+}    
+        .tabs .tab5 .touzhiren{top: 45%;
+position: absolute;
+left: 22%;
+}
+  .tabs .tab5 .bg-txt-btn 
+      {  
+          position: absolute;
+          top: 80%;
+          left: 50%;
+          margin-left: -60px;
+          
+        width:120px;
+        height:62px;
+      }
    </style>
 </head>
 <body >
@@ -988,6 +1046,7 @@ margin-left: -34px;}
                      <div class="p6_txt fontFamily sprite">
                         <p>地图?,实时路况?UGC?</p>
                         <p>不只如此,</p>
+						<br />
                         <p class="fontGreedColor">我们是中国</p>
                         <p class="fontGreedColor">最大的移动</p>
                         <p class="fontGreedColor">车主社区</p>
@@ -1017,12 +1076,12 @@ margin-left: -34px;}
                        <div class="tab3icon tab3icon5 sprite"></div>
                         <div class="txt1  fontFamily fontGreedColor sprite">
                           <p>我们所做的一切，不是改进,</p>
-                          <p>而是改变！</p>
+                          <p>而是改变。</p>
                         </div>
                        <div class="txt2 sprite"></div>
                        <div class="txt3  fontGreedColor sprite">
                           <p>关于车,</p>
-                          <p>一个新时代已经到来！</p>
+                          <p>一个新的时代已经到来。。。</p>
 
                        </div>
                         <img class="icon" src="img/icon.png" width="25px" height="25px"></img>
@@ -1037,7 +1096,22 @@ margin-left: -34px;}
                      <img  class="car_running_bg2 sprite" src="img/car_running_bg2.png" width="596px" height="56px"></img>
 
                 </li>
+            <li class="tab5 tab">
+                    <img src="img/tab5_bg.png" class="bg"></img>
 
+                    <p class="name Tabfont">姓名:</p>
+                     <input type="text" name="tab5name" class="tab5name" id="tab5name"></input>
+                    <p class="shenfen Tabfont">参与身份:</p>
+
+                    <div class="touzhiren Tabfont"><span>投资人</span> <input type="checkbox" name="tab5_checkBox" value="1" ><span>媒体</span><input type="checkbox" name="tab5_checkBox" value="2"> <span>行业观众</span> <input type="checkbox" name="tab5_checkBox" value="3"><span>普通观众</p><input type="checkbox" name="tab5_checkBox" value="4">
+                    </div>
+                    <p class="mod Tabfont">手机:</p>
+                      <input type="text" name="tab5mode" id="tab5mode" class="tab5mode"></input>
+                      <div id="btn_sure"><img src="img/tab4_img3.png"  class="bg-txt-btn sprite show"></div>
+                      <img class="car_running"  src="img/car_running.gif" width="68px" height="28px"></img>
+                     <img  class="car_running_bg1" src="img/car_running_bg1.png" width="100%" height="56px"></img>
+                     <img  class="car_running_bg2 sprite" src="img/car_running_bg2.png" width="596px" height="56px"></img>
+                </li>
             </ul>
         </div>
     </div>
@@ -1048,7 +1122,34 @@ margin-left: -34px;}
  window.onload =function(){
   
   
+document.getElementById('btn_sure').onclick=function(){
+  
+  var name=document.getElementById('tab5name');
+  var iphone=document.getElementById('tab5mode');
+  if(name.value=="")
+  {
+    alert("请输入名字");
+    return false;
+  }
+  if(iphone.value=="")
+  {
+    alert("请输入电话");
+     return false;
+  }
+  var arry="";
+  var check=document.getElementsByName("tab5_checkBox");
+   for(var i=0;i<check.length;i++){
 
+      if(check[i].checked==true){
+          arry=check[i].value+";";
+      
+      }
+      }
+  alert(arry);
+  return false;
+  window.location.href ="http://805.chetuobang.com/web_weixinlukuang/index.php?c=other_api&m=letter&name="+name.value+"&type="+arry+"&iphone="+iphone.value+"";
+
+}
     function isWeixin(){
         var UA = navigator.userAgent;
         // alert(UA)
